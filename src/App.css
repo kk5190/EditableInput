@@ -53,8 +53,6 @@ input:focus-visible {
 
 .cell-container {
   display: flex;
-  justify-content: start;
-  align-items: center;
   background: #fff;
   border-radius: 0.25rem;
   padding: 1rem;
@@ -85,6 +83,7 @@ input:focus-visible {
 .title {
   line-height: 1.5;
   margin-bottom: 0.25rem;
+  text-align: left;
 }
 
 button{

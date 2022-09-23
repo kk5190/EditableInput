@@ -10,7 +10,7 @@ export default function Cell(props) {
   return (
     <button className={`${props.canEdit || props.hint ? "cell-container highlight" : "cell-container"}`} onClick={onCLickHandler} onBlur={onBlurHandler}>
       
-      { props.icon && <div className="cell" style={{width:'auto'}}><img width="15px" height="15px" src={alertIcon} /></div> }
+      { props.icon && <div className="cell" style={{width:'auto'}}><img width="15px" height="15px" src={alertIcon} alt="hint-icon" /></div> }
       
       <div class="cell">
       <InlineEdit
